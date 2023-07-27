@@ -55,5 +55,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: background_variant_level_1
       objectReference: {fileID: 0}
+    - target: {fileID: 5540202370016838100, guid: cc2e0fbcfac1bb34aa461e57b2e8553a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cc2e0fbcfac1bb34aa461e57b2e8553a, type: 3}

@@ -55,6 +55,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: static_sprites_variant_level_1
       objectReference: {fileID: 0}
+    - target: {fileID: 4165609312674505245, guid: 5b534fb6f5da21640933a4c107d0285b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5b534fb6f5da21640933a4c107d0285b, type: 3}
 --- !u!4 &3387715171730207156 stripped
@@ -273,6 +277,10 @@ PrefabInstance:
       propertyPath: m_Tiles.Array.data[19].second.m_TileObjectToInstantiateIndex
       value: 65535
       objectReference: {fileID: 0}
+    - target: {fileID: 5893625933527074035, guid: 4c19a282d15dc3d4ebb777a5cacad740, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5893625934032607128, guid: 4c19a282d15dc3d4ebb777a5cacad740, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -320,6 +328,10 @@ PrefabInstance:
     - target: {fileID: 5893625934032607129, guid: 4c19a282d15dc3d4ebb777a5cacad740, type: 3}
       propertyPath: m_Name
       value: ground_variant_level_1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5893625934032607129, guid: 4c19a282d15dc3d4ebb777a5cacad740, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4c19a282d15dc3d4ebb777a5cacad740, type: 3}
