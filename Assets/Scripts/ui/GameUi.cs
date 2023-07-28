@@ -1,6 +1,6 @@
 namespace ui
 {
-    using interactions;
+    using game;
     using UnityEngine;
     using UnityEngine.SceneManagement;
     using UnityEngine.UI;
@@ -11,7 +11,7 @@ namespace ui
         private Button loadScene;
 
         [SerializeField]
-        private SpriteButton showLoadButton;
+        private LevelStateHandler levelStateHandler;
         
         [SerializeField]
         private string sceneName;
@@ -25,9 +25,9 @@ namespace ui
 
         private void OnDisable()
         {
-            if (showLoadButton)
+            if (levelStateHandler)
             {
-                showLoadButton.OnClick -= ShowLoadButton;
+                levelStateHandler.OnLevelComplete -= ShowLoadButton;
             }
 
             loadScene.onClick.RemoveListener(LoadScene);
@@ -35,7 +35,7 @@ namespace ui
 
         private void SetLoadSceneButton()
         {
-            if (showLoadButton == false)
+            if (levelStateHandler == false)
             {
                 loadScene.gameObject.SetActive(true);
                 
@@ -44,7 +44,7 @@ namespace ui
 
             loadScene.gameObject.SetActive(false);
 
-            showLoadButton.OnClick += ShowLoadButton;
+            levelStateHandler.OnLevelComplete += ShowLoadButton;
         }
 
         private void LoadScene()

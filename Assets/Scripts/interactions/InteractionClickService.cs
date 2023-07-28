@@ -20,7 +20,7 @@ namespace interactions
 
             var hit = Physics2D.Raycast(origin, direction);
 
-            if (!hit)
+            if (hit == false)
             {
                 return;
             }
@@ -33,17 +33,10 @@ namespace interactions
 
         private void GetRayOriginAndDirection(out Vector2 origin, out Vector2 direction)
         {
-            if (raycastCamera.orthographic)
-            {
-                origin = raycastCamera.ScreenToWorldPoint(Input.mousePosition);
-                direction = Vector2.zero;
+            origin = raycastCamera.ScreenToWorldPoint(Input.mousePosition);
+            direction = Vector2.zero;
                 
-                return;
-            }
-
-            var ray = raycastCamera.ScreenPointToRay(Input.mousePosition);
-            origin = ray.origin;
-            direction = ray.direction;
+            Debug.DrawRay(origin, direction, Color.red);
         }
     }
 }
