@@ -58,3 +58,4 @@ UI Canvas с кнопкой на ней. Объекты схожие по фун
 
 https://assetstore.unity.com/packages/2d/environments/animated-pixel-art-backgrounds-free-255208
 https://assetstore.unity.com/packages/2d/textures-materials/nature/magic-cliffs-pixel-art-environment-60458
+https://assetstore.unity.com/packages/audio/music/casual-game-bgm-5-135943
