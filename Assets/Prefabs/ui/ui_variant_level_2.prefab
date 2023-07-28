@@ -11,6 +11,10 @@ PrefabInstance:
       propertyPath: sceneName
       value: level_1
       objectReference: {fileID: 0}
+    - target: {fileID: 933267591474053683, guid: bc7cfeff7cd48324f9d9e25b70e974b3, type: 3}
+      propertyPath: levelStateHandler
+      value: 
+      objectReference: {fileID: 11400000, guid: 4efabf10139d6ec46897fed8974f05c9, type: 2}
     - target: {fileID: 8478533464150820593, guid: bc7cfeff7cd48324f9d9e25b70e974b3, type: 3}
       propertyPath: m_Pivot.x
       value: 0

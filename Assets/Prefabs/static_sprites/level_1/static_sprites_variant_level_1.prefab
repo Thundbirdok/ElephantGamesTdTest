@@ -83,7 +83,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8756bb9d58c86994d94cc05063a822cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  finishLevel: {fileID: 171690542}
+  completeLevel: {fileID: 171690542}
   levelStateHandler: {fileID: 11400000, guid: 4efabf10139d6ec46897fed8974f05c9, type: 2}
 --- !u!1001 &4827377351256174432
 PrefabInstance:
@@ -363,7 +363,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6485864477110312104, guid: eba68bdf695354c40a041c59e7540d55, type: 3}
       propertyPath: m_Name
-      value: CompleteLevel
+      value: complete_level
       objectReference: {fileID: 0}
     - target: {fileID: 6485864477110312105, guid: eba68bdf695354c40a041c59e7540d55, type: 3}
       propertyPath: m_RootOrder
