@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9190587792966520062}
   m_Layer: 0
-  m_Name: dynamic_sprites
+  m_Name: animated_sprites
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
